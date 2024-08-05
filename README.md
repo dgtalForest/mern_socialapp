@@ -1,20 +1,25 @@
-# SocialEcho
+# MERN Social App
 
 A social networking platform with automated content moderation and context-based authentication system.
 
-[Watch Demo](https://youtu.be/Tmncayg7FeU)
-
-![UI-community](https://raw.githubusercontent.com/nz-m/SocialEcho/main/resources/UI-community.png)
-
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Schema Diagram](#schema-diagram)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [License](#license)
+- [MERN Social App](#mern-social-app)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+    - [Automated Content Moderation](#automated-content-moderation)
+    - [Context-Based Authentication](#context-based-authentication)
+    - [User Roles](#user-roles)
+  - [Features](#features)
+  - [Technologies](#technologies)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Configuration](#configuration)
+      - [`.env` Variables](#env-variables)
+  - [Usage](#usage)
+    - [Admin](#admin)
+    - [Moderator](#moderator)
 
 ## Project Overview
 
@@ -52,19 +57,19 @@ There are three distinct user roles within the system:
 
 ## Features
 
-- [x] User authentication and authorization (JWT)
-- [x] User profile creation and management
-- [x] Post creation and management
-- [x] Commenting on posts
-- [x] Liking posts and comments
-- [x] Following/unfollowing users
-- [x] Reporting posts
-- [x] Content moderation
-- [x] Context-based authentication
-- [x] Device management
-- [x] Admin dashboard
-- [x] Moderator dashboard
-- [x] Email notifications
+- User authentication and authorization (JWT)
+- User profile creation and management
+- Post creation and management
+- Commenting on posts
+- Liking posts and comments
+- Following/unfollowing users
+- Reporting posts
+- Content moderation
+- Context-based authentication
+- Device management
+- Admin dashboard
+- Moderator dashboard
+- Email notifications
 
 
 ## Technologies
@@ -84,12 +89,6 @@ There are three distinct user roles within the system:
 - Hugging Face Transformers
 
 
-## Schema Diagram
-
-![Schema Diagram](https://raw.githubusercontent.com/nz-m/SocialEcho/main/resources/Schema-Diagram.png)
-
-
-
 ## Getting Started
 
 ### Prerequisites
@@ -104,7 +103,7 @@ Before running the application, make sure you have the following installed:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/nz-m/SocialEcho.git
+git clone https://github.com/nz-m/MERN Social App.git
 ```
 2. Go to the project directory and install dependencies for both the client and server
 
@@ -171,12 +170,5 @@ The admin dashboard can be accessed at the `/admin` route. Use the `admin_tool.s
 
 ### Moderator
 
-Moderators have specific email domain (`@mod.socialecho.com`). When registering with an email from this domain, the user is automatically assigned the moderator role. Moderators can be assigned to different communities from the admin dashboard.
-
-#### Demo
-https://youtu.be/Tmncayg7FeU
-
-## License
-
-This project is licensed under the [MIT License](https://github.com/nz-m/SocialEcho/blob/main/LICENSE).
+Moderators have specific email domain (`@mod.MERN Social App.com`). When registering with an email from this domain, the user is automatically assigned the moderator role. Moderators can be assigned to different communities from the admin dashboard.
 
